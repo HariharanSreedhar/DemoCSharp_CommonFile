@@ -16,13 +16,10 @@ jobs:
     - name: Get folder name
       id: get-folder-name
       run: |
-        # Get the base directory (GitHub workspace) and the full path of the repository
-        #base_directory=$PWD
-        repo_path=$(git rev-parse --show-toplevel)
+        # Get the branch name
+        branch_name=$(git rev-parse --abbrev-ref HEAD)
 
-        # Extract the folder name from the full repository path
-        folder_name=${repo_path##*/}
-        echo "$folder_name"
+        # Extract the folder name from the branch name (assuming the branch name is in the format 'folder/branch')
+        folder_name=${branch_name%%/*}
 
-        # Set the folder name as an output to use it in subsequent steps
-        echo "FOLDER_NAME=${folder_name}" >> $GITHUB_ENV
+        echo "Folder name: $folder_name"
