@@ -22,6 +22,7 @@ jobs:
 
         # Extract the folder name from the full repository path
         folder_name=${repo_path##*/}
+        echo "$folder_name"
 
         # Set the folder name as an output to use it in subsequent steps
         echo "FOLDER_NAME=${folder_name}" >> $GITHUB_ENV
