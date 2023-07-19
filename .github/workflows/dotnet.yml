@@ -1,0 +1,27 @@
+name: Get Folder Name
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  get-folder-name:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Get folder name
+      id: get-folder-name
+      run: |
+        # Get the base directory (GitHub workspace) and the full path of the repository
+        base_directory=$PWD
+        repo_path=$(git rev-parse --show-toplevel)
+
+        # Extract the folder name from the full repository path
+        folder_name=${repo_path##*/}
+
+        # Set the folder name as an output to use it in subsequent steps
+        echo "FOLDER_NAME=${folder_name}" >> $GITHUB_ENV
