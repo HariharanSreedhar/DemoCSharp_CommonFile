@@ -103,3 +103,11 @@ C:\Projects\Starter Repo\test\demo console\Calculator_Demo\Calculator_Demo.Test\
 C:\Projects\Starter Repo\test\demo console\Calculator_Demo\Calculator_Demo.Test\obj\Debug\net7.0\Calculator_Demo.Test.pdb
 C:\Projects\Starter Repo\test\demo console\Calculator_Demo\Calculator_Demo.Test\obj\Debug\net7.0\Calculator_Demo.Test.genruntimeconfig.cache
 C:\Projects\Starter Repo\test\demo console\Calculator_Demo\Calculator_Demo.Test\obj\Debug\net7.0\ref\Calculator_Demo.Test.dll
+C:\Projects\Starter Repo\test\GitLocal1\Common Folder\DemoCSharp_CommonFile\TestFiles\Calculator_Demo.Test\obj\Debug\net7.0\Calculator_Demo.Test.dll
+C:\Projects\Starter Repo\test\GitLocal1\Common Folder\DemoCSharp_CommonFile\TestFiles\Calculator_Demo.Test\obj\Debug\net7.0\refint\Calculator_Demo.Test.dll
+C:\Projects\Starter Repo\test\GitLocal1\Common Folder\DemoCSharp_CommonFile\TestFiles\Calculator_Demo.Test\obj\Debug\net7.0\Calculator_Demo.Test.pdb
+C:\Projects\Starter Repo\test\GitLocal1\Common Folder\DemoCSharp_CommonFile\TestFiles\Calculator_Demo.Test\obj\Debug\net7.0\Calculator_Demo.Test.csproj.AssemblyReference.cache
+C:\Projects\Starter Repo\test\GitLocal1\Common Folder\DemoCSharp_CommonFile\TestFiles\Calculator_Demo.Test\obj\Debug\net7.0\Calculator_Demo.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Starter Repo\test\GitLocal1\Common Folder\DemoCSharp_CommonFile\TestFiles\Calculator_Demo.Test\obj\Debug\net7.0\Calculator_Demo.Test.AssemblyInfoInputs.cache
+C:\Projects\Starter Repo\test\GitLocal1\Common Folder\DemoCSharp_CommonFile\TestFiles\Calculator_Demo.Test\obj\Debug\net7.0\Calculator_Demo.Test.AssemblyInfo.cs
+C:\Projects\Starter Repo\test\GitLocal1\Common Folder\DemoCSharp_CommonFile\TestFiles\Calculator_Demo.Test\obj\Debug\net7.0\Calculator_Demo.Test.csproj.CoreCompileInputs.cache
