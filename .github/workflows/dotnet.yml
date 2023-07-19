@@ -18,6 +18,8 @@ jobs:
       run: |
         # Get the branch name
         branch_name=$(git rev-parse --abbrev-ref HEAD)
+        
+        git ls-tree -d --name-only $branch_name
 
         # Extract the folder name from the branch name (assuming the branch name is in the format 'folder/branch')
         folder_name=${branch_name%%/*}
