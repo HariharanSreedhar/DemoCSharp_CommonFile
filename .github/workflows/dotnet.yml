@@ -17,7 +17,7 @@ jobs:
       id: get-folder-name
       run: |
         # Get the base directory (GitHub workspace) and the full path of the repository
-        base_directory=$PWD
+        #base_directory=$PWD
         repo_path=$(git rev-parse --show-toplevel)
 
         # Extract the folder name from the full repository path
